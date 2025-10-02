@@ -1,0 +1,85 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  background: #000;
+  margin-top: 20px;
+  border: 2px solid white;
+}
+
+#playerImage {
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  max-height: 680px;
+  display: none;
+  image-rendering: pixelated;
+}
+
+#npcImage {
+  position: absolute;
+  bottom: 60px;
+  right: 40px;
+  max-height: 400px;
+  display: none;
+  image-rendering: pixelated;
+}
+
+#nameBox {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #ffcc00;
+}
+
+.messageBox {
+  position: absolute;
+  width: 480px;
+  padding: 15px 20px;
+  background: rgba(0,0,0,0.8);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  display: none;
+  box-shadow: 0 0 10px #000;
+}
+
+.nameBox {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+    
+.topBox {
+  bottom: 450px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottomBox {
+  bottom: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+    
+#messageText {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+#messageBox::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.85) transparent transparent transparent;
+}

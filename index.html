@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>2D RPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>言語の精髄による遊戯の誕生（仮）</h1>
+
+  <canvas id="gameCanvas" width="900" height="450"></canvas>
+
+  <div id="npcMessageBox" class="messageBox topBox">
+    <div id="npcNameBox" class="nameBox"></div>
+    <div id="npcMessageText" class="textBox"></div>
+  </div>
+  <img id="npcImage" src="" alt="npc" />
+
+  <div id="playerMessageBox" class="messageBox bottomBox">
+    <div id="playerNameBox" class="nameBox"></div>
+    <div id="playerMessageText" class="textBox"></div>
+  </div>
+
+  <img id="playerImage" src="" alt="player" style="display:none;">
+
+  <script src="maps/kingRoom.js"></script>
+  <script src="maps/palaceInside.js"></script>
+  <script src="maps/palaceOutside.js"></script>
+
+  <script src="data/npc.js"></script>
+    
+  <script src="systems/dialogue.js"></script>
+  <script src="systems/draw.js"></script>
+  <script src="systems/input.js"></script>
+
+  <script src="game.js"></script>
+</body>
+</html>
