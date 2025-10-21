@@ -223,15 +223,45 @@ window.npcs.push({
       text: "うむ。会いたかったぞ、〈白の神官女〉よ。"
     },
     { speaker: "npc", 
-      text: "はい。陛下においては、ご健勝のようで？",
-      action: () => switchToStanding() // ←ここでスチル→立ち絵に切り替え
+      text: "はい。陛下においては、ご健勝のようで？"
     },
     { speaker: "player", 
-      text: "うむ。この余なのだから、当然であるぞ？",
-      action: () => switchToStanding()
+      text: "うむ。この余なのだから、当然であるぞ？"
     },
     { speaker: "npc", 
       text: "そうですか。",
+      action: () => switchToStanding()
+    },
+    { speaker: "npc",
+      text: "まぁ、何せあの『陛下』なのですから、それも当然のことと言えましょう。",
+      action: () => switchToStanding() // ←ここでスチル→立ち絵に切り替え
+    },
+    { speaker: "player",
+      text: "うむ。余のことをよく分かっておるではないか。",
+      action: () => switchToStanding()
+    },
+    { speaker: "npc",
+      text: "……最近になって、御身がどういう人物なのか、分かってきましたので。",
+      action: () => switchToStanding()
+    },
+    { speaker: "player",
+      text: "ほう？　それは良い傾向であるな。",
+      action: () => switchToStanding()
+    },
+    { speaker: "npc",
+      text: "？　どうしてです？",
+      action: () => switchToStanding()
+    },
+    { speaker: "player",
+      text: "決まっておろう？",
+      action: () => switchToStanding()
+    },
+    { speaker: "player",
+      text: "ついぞこれまで、この国の王ですら気に掛けなかった女が、ようやっとその気になったと言うのだから、これを朗報と言わずして、他に何と例えようか。",
+      action: () => switchToStanding()
+    },
+    { speaker: "npc",
+      text: "……今日の本題に入りましょう。",
       action: () => switchToStanding()
     }
   ]
