@@ -237,33 +237,134 @@ window.npcs.push({
       action: () => switchToStanding() // ←ここでスチル→立ち絵に切り替え
     },
     { speaker: "player",
-      text: "うむ。余のことをよく分かっておるではないか。",
-      action: () => switchToStanding()
+      text: "うむ。余のことをよく分かっておるではないか。"
     },
     { speaker: "npc",
-      text: "……最近になって、御身がどういう人物なのか、分かってきましたので。",
-      action: () => switchToStanding()
+      text: "……最近になって、御身がどういう人物なのか、分かってきましたので。"
     },
     { speaker: "player",
-      text: "ほう？　それは良い傾向であるな。",
-      action: () => switchToStanding()
+      text: "ほう？　それは良い傾向であるな。"
     },
     { speaker: "npc",
-      text: "？　どうしてです？",
-      action: () => switchToStanding()
+      text: "？　どうしてです？"
     },
     { speaker: "player",
-      text: "決まっておろう？",
-      action: () => switchToStanding()
+      text: "決まっておろう？"
     },
     { speaker: "player",
-      text: "ついぞこれまで、この国の王ですら気に掛けなかった女が、ようやっとその気になったと言うのだから、これを朗報と言わずして、他に何と例えようか。",
-      action: () => switchToStanding()
+      text: "ついぞこれまで、この国の王ですら気に掛けなかった女が、ようやっとその気になったと言うのだから、これを吉報と言わずして、何と例えようか。"
     },
     { speaker: "npc",
-      text: "……今日の本題に入りましょう。",
-      action: () => switchToStanding()
-    }
+      text: "……今日の本題に入りましょう。"
+    },
+    { speaker: "player",
+      text: "照れたか？"
+    },
+    { speaker: "npc",
+      text: "（そんなはずがない）今日来てくださったのは、支援の件ですよね？"
+    },
+    { speaker: "player",
+      text: "そうだ。王家から毎月、この神殿に送っている物資だな。"
+    },
+    { speaker: "npc",
+      text: "毎度のことながら、陛下のご温情には感謝しております。"
+    },
+    { speaker: "player",
+      text: "そうか。それは良いことであるな。"
+    },
+    { speaker: "npc",
+      text: "はい。本当に。"
+    },
+    { speaker: "player",
+      text: "これでようやく、この余と婚約する気になったか？"
+    },
+    { speaker: "npc",
+      text: "……何度言わせる気ですか。そのようなこと、あり得るはずがないでしょう？",
+    },
+    { speaker: "player",
+      text: "何故だ？",
+    },
+    { speaker: "npc",
+      text: "確かに、陛下の毎度のご贈品にはとても感謝しております。",
+    },
+    { speaker: "npc",
+      text: "しかし、古より交わされた王家と神殿の盟約をお忘れではないはず。",
+    },
+    { speaker: "player",
+      text: "……やはりそれか。",
+    },
+    { speaker: "player",
+      text: "悪いが、その答えはもう聞き飽きたぞ。",
+    },
+    { speaker: "npc",
+      text: "飽きた、飽きないの話ではありません。そういう決まりだから、そう申しているのです。",
+    },
+    { speaker: "player",
+      text: "決まり、か。余の嫌う言葉の一つであるな。"
+    },
+    { speaker: "npc",
+      text: "……御身も一国の玉座に座す君主であるならば、決まりの重要性を理解されていることとは存じますが？",
+    },
+    { speaker: "player",
+      text: "当然だ。決まりとは即ち、人を縛るためにあり、守るために敷くものであるからな。",
+    },
+    { speaker: "npc",
+      text: "ならば……。"
+    },
+    { speaker: "player",
+      text: "だがそれは、あくまで人の話。王たるこの余はその枠外にある存在だと自負している。"
+    },
+    { speaker: "npc",
+      text: "王は、人ではないと？"
+    },
+    { speaker: "player",
+      text: "然り。王とは、人の枠に収まらぬからこその器。だからこそ、人界の上に立つことの出来る者の名。"
+    },
+    { speaker: "player",
+      text: "そしてそれは、〈白の神官女〉たるそなたも同義であるな。"
+    },
+    { speaker: "npc",
+      text: "……そこまで理解しておられるのなら――。"
+    },
+    { speaker: "player",
+      text: "ああ。それを承知した上で、そなたにこう告げよう。"
+    },
+    { speaker: "player",
+      text: "――『王』たるこの余の『妻』となれ。"
+    },
+    { speaker: "npc",
+      text: "……呆れて物が言えないとは、まさにこのことでしょうね。"
+    },
+    { speaker: "npc",
+      text: "……。"
+    },
+    { speaker: "npc",
+      text: "……一つ、賭けをいたしませんか？"
+    },
+    { speaker: "player",
+      text: "賭けだと？",
+    },
+    { speaker: "npc",
+      text: "――はい。"
+    },
+    { speaker: "player",
+      text: "……解せぬな。俗世とは離れた身にある神殿の者たるそなたが、賭け事とは。"
+    },
+    { speaker: "player",
+      text: "一体何が目的だ？"
+    },
+    { speaker: "npc",
+      text: "……私とて、遊興に耽る時ぐらいはあります。"
+    },
+    { speaker: "player",
+      text: "……そうか。"
+    },
+    { speaker: "player",
+      text: "――ならば良い。申してみよ。その賭けの内容とやらを。"
+    },
+    { speaker: "npc",
+      text: "……では。"
+    } 
   ]
 });
 
