@@ -212,9 +212,9 @@ window.npcs.push({
 
   // --- 立ち絵用設定（新しく追加） ---
   standingImage: "images/npc4.png",
-  standingRight: -100,
+  standingRight: -190,
   standingSize: 1000,
-  standingBottom: -500,
+  standingBottom: -520,
 
   nameColor: "#ffffff",
   dialogue: [
@@ -364,7 +364,55 @@ window.npcs.push({
     },
     { speaker: "npc",
       text: "……では。"
-    } 
+    },
+    { speaker: "npc",
+      text: "……この神殿がある神域の、さらに奥にある『迷宮』はご存知と思います。"
+    },
+    { speaker: "player",
+      text: "当然だ。この赤の王国内において、それを知らぬものはいないだろう。"
+    },
+    { speaker: "player",
+      text: "最も、そこに入れる者はいないがな。"
+    },
+    { speaker: "npc",
+      text: "はい。『迷宮』への立ち入りは禁じられています。"
+    },
+    { speaker: "npc",
+      text: "陛下もご存知の通り。この国において、それは古より続いてきた習わし、王家と神殿の盟約によるものです。"
+    },
+    { speaker: "player",
+      text: "……そうだな。"
+    },
+    { speaker: "npc",
+      text: "はい。"
+    },
+    { speaker: "player",
+      text: "その『迷宮』が、どうしたと？"
+    },
+    { speaker: "npc",
+      text: "実はそちらで、ある問題が起きていまして。"
+    },
+    { speaker: "player",
+      text: "問題？",
+    },
+    { speaker: "npc",
+      text: "そうです。"
+    },
+    { speaker: "npc",
+      text: "先ほど陛下が申しました通りの、入れる者がいないはずの『迷宮』ですが……。"
+    },
+    { speaker: "npc",
+      text: "最近、その不可侵の禁が破られることがありました。"
+    },
+    { speaker: "player",
+      text: "ほう？"
+    },
+    { speaker: "player",
+      text: "それは、興味深い話だな。"
+    },
+    { speaker: "npc",
+      text: "……（興味深いなどではなく）。"
+    },
   ]
 });
 
