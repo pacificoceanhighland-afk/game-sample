@@ -1,0 +1,108 @@
+/* 全体 */
+body {
+  margin: 0;
+  background-color: #88c; /* 万が一背景divの外が見えてもOK */
+  font-family: sans-serif;
+  position: relative;
+  height: 100vh;
+}
+
+/* 背景 */
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* 画面全体に広げる */
+  background: linear-gradient(to bottom, #000, #191970);
+  z-index: -1; /* テキストやアイコンの下に表示 */
+}
+
+/* ノベルテキスト + 名前をまとめたコンテナ */
+#text-container {
+  position: absolute;
+  top: 20px;             /* 画面上から20pxに固定 */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  text-align: center;
+}
+
+/* キャラクター名 */
+#char-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* 文章 */
+#text-box {
+  padding: 20px;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+  min-height: 100px;
+
+  display: flex;
+  align-items: center;       /* 縦方向中央揃え */
+  justify-content: center;   /* 横方向中央揃え */
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* 選択肢 */
+#choices {
+  position: absolute;
+  bottom: 20px;   /* 画面下に固定 */
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#choices button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* キャラクターアイコン（仮） */
+#char-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #f90;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* タイトル画面 */
+#title-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  z-index: 1000;
+}
+
+#start-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
